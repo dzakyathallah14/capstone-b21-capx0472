@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">capstone-b21-capx0472</string>
+    <string name="name">Pattern Matching with Facial Recognition</string>
+    <string name="input_name">Input your name</string>
+    <string name="welcome">Welcome to  Pattern Matching with Facial Recognition</string>
+    <string name="add_face">Add Face</string>
+    <string name="about">About App</string>
+    <string name="ver">ver 1.0.0</string>
+    <string name="machine_title">Machine Learning Team Member</string>
+    <string name="machine_member1">M0080896 - Muhammad Ichsan Pratama</string>
+    <string name="machine_member2">M3352995 - Dwi Fajar Dandy Saputra</string>
+    <string name="machine_member3">M0080892 - Hamdan Romadhona</string>
+    <string name="android_title">Android Team Member</string>
+    <string name="android_member1">A2992723 - Muhamad Irwan Ramadhan</string>
+    <string name="android_member2">A2992699 - Regy Saputra</string>
+    <string name="cloud_title">Cloud Team Member</string>
+    <string name="cloud_member1">C2942657 - Dzaky Athallah Luqman</string>
 </resources>
