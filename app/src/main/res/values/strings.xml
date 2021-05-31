@@ -18,4 +18,18 @@
     <string name="cloud_member1">C2942657 - Dzaky Athallah Luqman</string>
     <string name="team_name">CAPSTONE-B21-CAPX0472</string>
     <string name="logo">Logo</string>
+    <string name="slider_welcome">Welcome to Pattern Matching with Facial Recognition</string>
+    <string name="slider_taking_picture">Taking a picture</string>
+    <string name="slider_started">Getting started</string>
+    <string name="slider1">In this application will access your camera for taking pictures,
+                            please allow camera access for this application</string>
+    <string name="slider2">For taking faces, try to get your face
+                            in the middle of the camera like the example above</string>
+    <string name="slider3">Don\'t take your picture looking sideways</string>
+    <string name="slider4">Don\'t take your picture using mask</string>
+    <string name="slider5">Let\'s start</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>
