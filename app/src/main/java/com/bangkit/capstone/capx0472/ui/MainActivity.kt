@@ -16,6 +16,11 @@ import com.bangkit.capstone.capx0472.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
+    companion object {
+        const val RESULT_PHOTO = "result_photo"
+        const val RESULT_NAME = "result_name"
+    }
+
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
 

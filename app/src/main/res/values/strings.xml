@@ -34,5 +34,8 @@
     <string name="menu_photo">Add Photo</string>
     <string name="menu_about">About</string>
     <string name="menu_home">Home</string>
+    <string name="result">result</string>
+    <string name="result_ok">Data has been saved successfully</string>
+    <string name="result_bad">Data was not saved successfully, try again</string>
 
 </resources>

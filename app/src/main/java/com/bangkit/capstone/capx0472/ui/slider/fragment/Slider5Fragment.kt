@@ -55,8 +55,8 @@ class Slider5Fragment : Fragment() {
             val takenImage = data?.extras?.get("data") as Bitmap
             val name = activity?.intent?.getStringExtra(EXTRA_NAME)
             val moveIntent = Intent(context, MainActivity::class.java)
-          //  moveIntent.putExtra(MainActivity.RESULT_PHOTO, takenImage)
-           // moveIntent.putExtra(MainActivity.RESULT_NAME, name)
+            moveIntent.putExtra(MainActivity.RESULT_PHOTO, takenImage)
+            moveIntent.putExtra(MainActivity.RESULT_NAME, name)
             startActivity(moveIntent)
         }else{
             super.onActivityResult(requestCode, resultCode, data)
