@@ -24,10 +24,16 @@ class InputNameActivity : AppCompatActivity() {
             .into(binding.imgBanner)
 
         binding.btnOk.setOnClickListener{
-            val name = binding.edtName.text.toString()
-            val moveIntent = Intent(this, SliderActivity::class.java)
-            moveIntent.putExtra(SliderActivity.EXTRA_NAME, name)
-            startActivity(moveIntent)
+            val name = binding.edtName.text.toString().trim()
+
+            if (name.isEmpty()){
+                binding.edtName.error = "Field can not be blank"
+            }else {
+                val moveIntent = Intent(this, SliderActivity::class.java)
+                moveIntent.putExtra(SliderActivity.EXTRA_NAME, name)
+                startActivity(moveIntent)
+            }
+
         }
     }
 }
