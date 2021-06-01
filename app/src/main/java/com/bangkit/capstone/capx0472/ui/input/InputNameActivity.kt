@@ -3,7 +3,6 @@ package com.bangkit.capstone.capx0472.ui.input
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.bangkit.capstone.capx0472.MainActivity
 import com.bangkit.capstone.capx0472.R
 import com.bangkit.capstone.capx0472.databinding.ActivityInputNameBinding
 import com.bangkit.capstone.capx0472.ui.slider.SliderActivity

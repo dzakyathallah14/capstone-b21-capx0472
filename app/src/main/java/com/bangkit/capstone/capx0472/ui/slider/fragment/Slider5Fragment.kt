@@ -11,11 +11,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import com.bangkit.capstone.capx0472.MainActivity
-import com.bangkit.capstone.capx0472.R
-import com.bangkit.capstone.capx0472.data.source.local.entity.DataEntity
 import com.bangkit.capstone.capx0472.databinding.FragmentSlider5Binding
-import com.bangkit.capstone.capx0472.ui.slider.SliderActivity
+import com.bangkit.capstone.capx0472.ui.MainActivity
 import com.bangkit.capstone.capx0472.ui.slider.SliderActivity.Companion.EXTRA_NAME
 
 @Suppress("DEPRECATION")
@@ -58,8 +55,8 @@ class Slider5Fragment : Fragment() {
             val takenImage = data?.extras?.get("data") as Bitmap
             val name = activity?.intent?.getStringExtra(EXTRA_NAME)
             val moveIntent = Intent(context, MainActivity::class.java)
-            moveIntent.putExtra(MainActivity.RESULT_PHOTO, takenImage)
-            moveIntent.putExtra(MainActivity.RESULT_NAME, name)
+          //  moveIntent.putExtra(MainActivity.RESULT_PHOTO, takenImage)
+           // moveIntent.putExtra(MainActivity.RESULT_NAME, name)
             startActivity(moveIntent)
         }else{
             super.onActivityResult(requestCode, resultCode, data)
