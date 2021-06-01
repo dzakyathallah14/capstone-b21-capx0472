@@ -9,6 +9,10 @@ import com.bangkit.capstone.capx0472.databinding.ActivitySliderBinding
 
 class SliderActivity : AppCompatActivity() {
 
+    companion object {
+        const val EXTRA_NAME = "extra_name"
+    }
+
     private lateinit var binding: ActivitySliderBinding
 
     private val sectionPagerAdapter = SectionPagerAdapter(supportFragmentManager)
@@ -22,6 +26,7 @@ class SliderActivity : AppCompatActivity() {
         viewPager.adapter = sectionPagerAdapter
 
         val buttons = binding.bottomNavLinearLayout
+
 
         for (i in 0 until sectionPagerAdapter.count) {
             val points = TextView(this)

@@ -3,6 +3,7 @@ package com.bangkit.capstone.capx0472.ui.input
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.bangkit.capstone.capx0472.MainActivity
 import com.bangkit.capstone.capx0472.R
 import com.bangkit.capstone.capx0472.databinding.ActivityInputNameBinding
 import com.bangkit.capstone.capx0472.ui.slider.SliderActivity
@@ -24,7 +25,9 @@ class InputNameActivity : AppCompatActivity() {
             .into(binding.imgBanner)
 
         binding.btnOk.setOnClickListener{
+            val name = binding.edtName.text.toString()
             val moveIntent = Intent(this, SliderActivity::class.java)
+            moveIntent.putExtra(SliderActivity.EXTRA_NAME, name)
             startActivity(moveIntent)
         }
     }
