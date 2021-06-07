@@ -32,7 +32,8 @@ class HomeFragment : Fragment() {
         val name = activity?.intent?.getStringExtra(RESULT_NAME)
         val photo = activity?.intent?.getParcelableExtra<Bitmap>(RESULT_PHOTO)
 
-        if (photo != null){
+        binding.progressBar.visibility = View.VISIBLE
+        if (name != null){
             if (activity != null){
                 Glide.with(requireActivity())
                     .load(R.drawable.ic_true)

@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import com.bangkit.capstone.capx0472.R
-import com.bangkit.capstone.capx0472.ui.input.InputNameActivity
+import com.bangkit.capstone.capx0472.ui.input.InputActivity
 
 class SplashScreenActivity : AppCompatActivity() {
 
@@ -16,7 +16,7 @@ class SplashScreenActivity : AppCompatActivity() {
         val splashTimeOut:Long = 3000
 
         Handler(mainLooper).postDelayed({
-            startActivity(Intent(this, InputNameActivity::class.java))
+            startActivity(Intent(this, InputActivity::class.java))
             finish()
         }, splashTimeOut)
 

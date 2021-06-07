@@ -18,7 +18,7 @@
 
     <activity
         android:id="@+id/nav_photo"
-        android:name="com.bangkit.capstone.capx0472.ui.input.InputNameActivity"
+        android:name="com.bangkit.capstone.capx0472.ui.input.InputActivity"
         android:label="activity_input_name"
-        tools:layout="@layout/activity_input_name" />
+        tools:layout="@layout/activity_input" />
 </navigation>
