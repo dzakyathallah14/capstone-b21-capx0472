@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">capstone-b21-capx0472</string>
+    <string name="name">Pattern Matching with Facial Recognition</string>
+    <string name="input_name">Input your name</string>
+    <string name="welcome">Welcome to Pattern Matching with Facial Recognition App</string>
+    <string name="add_face">Add Face</string>
+    <string name="ok">OK</string>
+    <string name="about">About App</string>
+    <string name="ver">ver 1.0.0</string>
+    <string name="machine_title">Machine Learning Team Member</string>
+    <string name="machine_member1">M0080896 - Muhammad Ichsan Pratama</string>
+    <string name="machine_member2">M3352995 - Dwi Fajar Dandy Saputra</string>
+    <string name="machine_member3">M0080892 - Hamdan Romadhona</string>
+    <string name="android_title">Android Team Member</string>
+    <string name="android_member1">A2992723 - Muhamad Irwan Ramadhan</string>
+    <string name="android_member2">A2992699 - Regy Saputra</string>
+    <string name="cloud_title">Cloud Team Member</string>
+    <string name="cloud_member1">C2942657 - Dzaky Athallah Luqman</string>
+    <string name="team_name">CAPSTONE-B21-CAPX0472</string>
+    <string name="logo">Logo</string>
+    <string name="slider_welcome">Welcome to Pattern Matching with Facial Recognition</string>
+    <string name="slider_taking_picture">Taking a picture</string>
+    <string name="slider_started">Getting started</string>
+    <string name="slider1">In this application will access your camera for taking pictures,
+                            please allow camera access for this application</string>
+    <string name="slider2">For taking faces, try to get your face
+                            in the middle of the camera like the example above</string>
+    <string name="slider3">Don\'t take your picture looking sideways</string>
+    <string name="slider4">Don\'t take your picture using mask</string>
+    <string name="slider5">Let\'s start</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="menu_photo">Add Photo</string>
+    <string name="menu_about">About</string>
+    <string name="menu_home">Home</string>
+    <string name="result">result</string>
+    <string name="result_ok">Data has been saved successfully</string>
+    <string name="result_bad">Data was not saved successfully, try again</string>
+    <string name="welcome_name">Welcome %s in Pattern Matching with Facial Recognition</string>
+
+</resources>
