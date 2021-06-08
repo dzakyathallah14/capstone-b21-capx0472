@@ -1,6 +1,6 @@
 # **Capstone B21-CAPX472**
 
-![Gambar banner capstone](https://lh6.googleusercontent.com/UEeZGuD-yT2HEQZJ83MtFjCjMg9Hdd68rdOpxHheuEOuMhYhCmb3RmKqqTeANwdsClWEHOOSUivNvqD4GAyB=w2572-h4575-rw)
+![Gambar banner capstone](https://lh4.googleusercontent.com/rlPpFA7UupKV0U7F3yVwiVRri5nbd_w0ES4nFZvFCuHNNmIOc-m0LzmNkNLsxmvUYRvzyfYNR6TqRh4fom1k=w1920-h969-rw)
 
 Hello. Here is our repository for Bangkit 2021 Capstone project. Our team consist of 2 Machine Learning, 2 Android, and 1 Cloud Computing.
 
