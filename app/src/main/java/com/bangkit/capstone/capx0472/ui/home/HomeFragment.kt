@@ -36,14 +36,14 @@ class HomeFragment : Fragment() {
         if (name != null){
             if (activity != null){
                 Glide.with(requireActivity())
-                    .load(R.drawable.ic_true)
+                    .load(R.drawable.ok_icon)
                     .into(binding.imgResult)
                 binding.tvResult.text = resources.getString(R.string.result_ok)
             }
         } else {
             if (activity != null){
                 Glide.with(requireActivity())
-                    .load(R.drawable.ic_false)
+                    .load(R.drawable.bad_icon)
                     .into(binding.imgResult)
                 binding.tvResult.text = resources.getString(R.string.result_bad)
             }
