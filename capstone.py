@@ -35,8 +35,10 @@ model = tf.keras.Sequential([
     tf.keras.applications.MobileNetV2(input_shape=(160, 160, 3),
                                                include_top=False,
                                                weights='imagenet'),
-    tf.keras.layers.Conv2D(160, 3, activation='relu'),  # 2
+    tf.keras.layers.Conv2D(256, 3, activation='relu'),  # 2
     tf.keras.layers.Conv2D(128, 3, activation='relu'),  # 2
+    tf.keras.layers.Dropout(0.2),  # 3
+    tf.keras.layers.Dense(128, activation='relu'),
     tf.keras.layers.Dropout(0.2),  # 3
     tf.keras.layers.Dense(64, activation='relu'),
     tf.keras.layers.Dropout(0.2),  # 3
