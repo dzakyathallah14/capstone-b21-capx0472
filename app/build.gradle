@@ -52,8 +52,13 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
     implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
 
+    //firebase
+    implementation 'com.google.firebase:firebase-storage:20.0.0'
+    implementation 'com.google.firebase:firebase-auth:21.0.1'
+
     //testing
     testImplementation "junit:junit:$junitVersion"
     androidTestImplementation "androidx.test.ext:junit:$junitExtversion"
     androidTestImplementation "androidx.test.espresso:espresso-core:$espressoVersion"
 }
+apply plugin: 'com.google.gms.google-services'

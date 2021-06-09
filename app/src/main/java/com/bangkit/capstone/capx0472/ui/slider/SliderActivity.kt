@@ -11,6 +11,7 @@ class SliderActivity : AppCompatActivity() {
 
     companion object {
         const val EXTRA_NAME = "extra_name"
+        const val EXTRA_NIK = "extra_nik"
     }
 
     private lateinit var binding: ActivitySliderBinding

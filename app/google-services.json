@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "969853473745",
+    "project_id": "rock-web-312913",
+    "storage_bucket": "rock-web-312913.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969853473745:android:98e747e2b74892818346f0",
+        "android_client_info": {
+          "package_name": "com.bangkit.capstone.capx0472"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969853473745-hqfk442h6s6sov8v73fbl7csfgioi9c8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgv12BAEv3FePSLkdVXZm0Elgv-_yj26w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969853473745-hqfk442h6s6sov8v73fbl7csfgioi9c8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -22,4 +22,6 @@ class AboutActivity : AppCompatActivity() {
             .load(R.drawable.bannercapstone)
             .into(binding.imgBanner)
     }
+
+
 }

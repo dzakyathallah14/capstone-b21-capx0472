@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.bangkit.capstone.capx0472">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
@@ -11,6 +12,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Capstoneb21capx0472">
+
+        <provider
+            android:authorities="com.bangkit.capstone.capx0472.fileprovider"
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/fileprovider"/>
+        </provider>
+
         <activity
             android:name=".ui.about.AboutActivity"
             android:parentActivityName=".ui.MainActivity">
@@ -34,7 +46,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.input.InputNameActivity" />
+        <activity android:name=".ui.input.InputActivity" />
     </application>
 
 </manifest>
