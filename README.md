@@ -23,7 +23,14 @@ In this capstone project, we’re trying to make a pattern matching with face re
 <img src="https://i.ibb.co/6XVy35f/Take-Foto.jpg" width="288" height="480">         <img src="https://i.ibb.co/rQDrV1W/Ok-Result.jpg" width="288" height="480">
 
 
+## **Run to GCP VM**
 
+Create a VM Instance (min. n1-standard-2 (2 vCPUs, 7.5 GB memory) Ubuntu Linux)
+Upload face_recognition_py.rar to VM ssh
+Extract the face_recognition_py.rar to the google cloud shell
+Install Docker to ssh
+Build the image by Dockerfile
+Run the Image
 
 ## **Dependencies**
 ```
