@@ -31,7 +31,6 @@ path_test = '/content/test'
 
 def scaling(x, scale):
     return x * scale
-
 model = tf.keras.Sequential([
     tf.keras.applications.MobileNetV2(input_shape=(160, 160, 3),
                                                include_top=False,
@@ -70,31 +69,6 @@ def normalize(img):
 
 # Printing Training Variables
 print('Number of trainable variables = {}'.format(len(model.trainable_variables)))
-
-def resample(image, nama):
-    datagen = ImageDataGenerator( rotation_range=40,
-                                 width_shift_range=0.15,
-                                 height_shift_range=0.15,
-                                 rescale=1./255,
-                                 shear_range=0.15,
-                                 zoom_range=0.15,
-                                 horizontal_flip=True,
-                                 fill_mode='nearest')
-    img = image  # this is a PIL image
-    x = img_to_array(img)  # this is a Numpy array with shape (3, 150, 150)
-    x = x.reshape((1,) + x.shape)
-    i = 0
-
-    os.mkdir(f'train/{nama}t')
-    
-    for batch in datagen.flow(x, batch_size=1, save_to_dir=f'train/{nama}t', save_prefix=f'{nama}', save_format='jpg'):
-        i += 1
-        if i > 20:
-            break  # otherwise the generator would loop indefinitely
-    return datagen
-
-img = cv2.imread('train/Raisa/raisa.jpg')
-resample(img, 'Raisa')
 
 for face_names in os.listdir(face_data):
     person_dir = os.path.join(face_data,face_names)
